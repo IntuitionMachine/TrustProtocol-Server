@@ -11,7 +11,11 @@ const dotenv = require('dotenv').config();
 const {graphqlExpress, graphiqlExpress} = require('apollo-server-express');
 
 var cors = require('cors');
+
+// Pulls in the GQL schema
 const schema = require('./schema');
+
+// Creates the express application
 var app = express();
 
 console.log(`Starting with contractAddress: ${process.env.CONTRACT_ADDRESS} and providerUrl: ${process.env.PROVIDER_URL}`)
