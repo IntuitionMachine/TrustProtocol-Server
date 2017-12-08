@@ -1,6 +1,6 @@
-# taryn-token-signup-server
+# TrustProtocol-Server
 
-This is the server code for Taryn Token's [signup page](http://taryn.trusttoken.com/). It's a simple express server that uses apollo/graphql to interact with a client.
+This is the server-side code for apps on the TrustToken platform like [Taryn Token](http://taryn.trusttoken.com/). It an express server that uses apollo/graphql to interact with a client.
 
 ## Instructions
 
